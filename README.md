@@ -1,1 +1,2 @@
-# MarketBasketAnalysis_PySpark-
+This project presents a market basket analysis(MBA) implemented in Pyspark using the FP-growth algorithm on the tweets about Ukraine-Russian conflict provided by Kaggle.
+The idea behind MBA is to find the frequent itemsets which are the items that are frequently found in the same basket. The word frequent refers to a threshold number which is defined by the user. The most classical example of MBA is the purchases of customers at the marketplace. Each transaction is a basket and each product in that transaction is the item. Therefore,  given that our dataset is composed of tweets which are textual information, the tweets are considered as baskets and unique words found in the tweets are considered as items. 
